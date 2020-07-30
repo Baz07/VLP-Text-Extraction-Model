@@ -1,5 +1,5 @@
 % Mention the Dataset Folder.
-Data_Set = 'Images\Final_Dataset';
+Data_Set = 'Images';  ## Images is a folder which contains hundreds and thousands of Vehicle License Plate Images.
 
 % Alert User if folder doesn't exists.
 if ~isfolder(Data_Set)
